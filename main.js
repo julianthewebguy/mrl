@@ -90,3 +90,17 @@
       header.classList.remove("sticky2");
      }
     }
+var gwidget_langs = 'es'
+  
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+              pageLanguage: 'auto',
+              includedLanguages: 'es,en,it,de,fr,ru',
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+              autoDisplay: false
+          },
+              'google_translate_element');
+      }
+      $(".show-original-lang").click(function () {
+          $('#\\:2\\.container').contents().find('#\\:2\\.restore').click();
+      })
