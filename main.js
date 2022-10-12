@@ -58,7 +58,7 @@ $(function () {
   $(document).ready(function () {
     var url = location.href;
     var headerDiv = document.getElementsByClassName('row-fluid')[1];
-    console.log(url)
+    //console.log(url)
     if (url == "https://www.mexicorealtyliving.com/" || url == "https://www.mexicorealtyliving.com/#") {
       headerDiv.classList.add('transparent');
     }
@@ -69,7 +69,7 @@ $(function () {
   $(document).ready(function () {
     var url = location.href;
     var headerDiv = document.getElementsByClassName('row-fluid')[2];
-    console.log(url)
+    //console.log(url)
     if (url == "https://www.mexicorealtyliving.com/" || url == "https://www.mexicorealtyliving.com/#") {
       headerDiv.classList.add('fullwidth');
     }
